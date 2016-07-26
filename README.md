@@ -4,10 +4,10 @@ Determine your federal and state income tax amount on your Google Sheets project
 ##To Setup
 
 1. Tools > Script editor
-2. Paste in code from Taxes Calculator.js code
+2. Paste in code from Taxes Calculator.gs code
 3. File > New > Script File
 4. Name Script File "State Names". This script was copied from [here]( https://github.com/davegaeddert/google-sheets-us-states/blob/master/Code.gs)
-5. Paste in code from State Names.js
+5. Paste in code from State Names.gs
 6. You're good to go!
 
 ##To Use
