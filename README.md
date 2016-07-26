@@ -12,10 +12,27 @@ Determine your federal and state income tax amount on your Google Sheets project
 
 ##To Use
 
-There are 3 basic functions: TaxAmount(income, state), TaxRateFromBrackets(income, taxInfo), and location specific functions. 
+There are 3 basic functions: `TaxAmount(income, state)`, `TaxRateFromBrackets(income, taxInfo)`, and location specific functions. 
 
-TaxAmount is a convenience function, where you can plug in your state and the proper location specific functions will be called.
-Location specific functions exist for Federal [ex: FederalTaxAmt(income)] and state [ex: WisconsinTaxAmt(income)] income taxes.
-TaxRateFromBrackets takes an income and information about the local tax rates, and calculates how much your taxes will be. It actually does the calulations and work.
+`TaxAmount` is a convenience function, where you can plug in your state and the proper location specific functions will be called. 
+
+`TaxRateFromBrackets` takes an income and information about the local tax rates, and calculates how much your taxes will be. It actually does the calulations and work.
+
+Location specific functions exist for Federal [ex: `FederalTaxAmt(income)`] and state [ex: `WisconsinTaxAmt(income)`] income taxes. 
+
+Supported States:
+
+- Alaska
+- Arizona
+- California
+- Florida
+- Nevada
+- Ohio
+- South Dakota
+- Texas
+- Washington
+- Wisconsin
+- Wyoming
+
 
 [For More info on custom functions in Google Sheets](https://developers.google.com/apps-script/guides/sheets/functions)
